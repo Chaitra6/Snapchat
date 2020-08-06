@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: 'Graphik', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #F8F9FB;
+    line-height: 1.4285em;
+
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 6px;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 150px;
+    justify-items: center;
+    justify-content: inherit;
+
+
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-weight: 550;
+    font-size: 13px;
+
+}
+
+
+.nav-link {
+
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.logo {
+    height: 26px;
+    width: 29px;
+
+}
+
+header {
+    text-align: center;
+    background-color: #FFFC00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 650px;
+    padding-top: 130px;
+
+
+}
+
+.title {
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 0.9em;
+    padding: 15px;
+    border-radius: 27px;
+    border-color: white;
+    font-weight: 1000;
+    min-width: 150px;
+    outline: none;
+    margin-bottom: 50px;
+
+}
+
+
+
+.img {
+    height: 310px;
+    width: 420px;
+}
+
+
+
+h3 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.main-div {
+    display: flex;
+    align-self: auto;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    line-height: 17px;
+}
+
+footer {
+    padding: 0 150px;
+    margin-top: -25px;
+}
+
+footer ul li {
+
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding-top: 0.5em;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.language {
+    padding: 20px 20px 20px 0;
+
+}
+
+.language input {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background: white;
+    height: 20px;
+    width: 170px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-family: inherit;
+    padding-top: 0.5em;
+
+
+}
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 100;
+}
+
+
+.last-sec {
+    background-color: black;
+    list-style: none;
+    line-height: 17px;
+    padding: 30px 150px;
+    color: whitesmoke;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
